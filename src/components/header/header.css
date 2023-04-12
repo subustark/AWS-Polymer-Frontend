@@ -1,0 +1,104 @@
+.navbarContainer {
+  background-color: dodgerblue;
+  border-bottom: 1px solid rgb(216, 216, 216);
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 2;
+}
+.navTitle {
+  font-weight: 150;
+}
+.navItem {
+  color: white;
+  text-decoration: none;
+}
+.nav-item {
+  display: flex;
+  justify-content: center;
+}
+.nav-link {
+  display: flex !important;
+  /* background-color: turquoise !important; */
+  /* width: 8rem !important; */
+  justify-content: center !important;
+  align-items: center;
+}
+.navItem:hover {
+  border-bottom: 4px solid whitesmoke;
+  color: white !important;
+}
+.setItem {
+  color: white !important;
+  border-bottom: 4px solid white;
+}
+.bulbIcon {
+  color: rgb(240, 160, 11);
+}
+.reloadIcon {
+  color: red;
+}
+
+.polymer {
+  /* background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255) !important;
+    border-radius: 0px; */
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  color: #fff;
+  border-radius: 8px;
+  margin-left: 0.5rem;
+  padding: 10px 18px;
+  box-shadow: 0 12px 16px rgb(9 29 77 / 5%), 0 12px 36px rgb(12 46 126 / 10%);
+  height: 36px;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 500;
+  transition: opacity 0.25s;
+}
+.dropdown {
+  margin: 0 10px;
+  border: 1.5px solid blue;
+  border-radius: 20px;
+}
+.dropdown-menu {
+  position: relative;
+  left: -80px;
+}
+
+#searchId,
+#chartId {
+  position: relative;
+}
+
+#searchTooltip {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  gap: 5px;
+  position: absolute;
+  top: 58px;
+  left: -30px;
+  padding: 8px;
+  border: 1px solid rgb(216, 216, 216);
+}
+#chartTooltip {
+  width: 20rem;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  position: absolute;
+  top: 58px;
+  left: -50px;
+  padding: 8px;
+  border: 1px solid rgb(216, 216, 216);
+  background-color: white;
+}
+
+@media (max-width: 1020px) {
+  #searchTooltip,
+  #chartTooltip {
+    display: none !important;
+  }
+}

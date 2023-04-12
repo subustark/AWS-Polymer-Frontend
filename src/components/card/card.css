@@ -1,0 +1,84 @@
+.htags{
+    font-family: 'Bahnschrift SemiBold';
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 1px 0 #ccc,
+                 0 2px 0 #c9c9c9,
+                 0 3px 0 #bbb,
+                 0 4px 0 #b9b9b9,
+                 0 5px 0 #aaa,
+                 0 6px 1px rgba(0,0,0,.1),
+                 0 0 5px rgba(0,0,0,.1),
+                 0 1px 3px rgba(0,0,0,.3),
+                 0 3px 5px rgba(0,0,0,.2),
+                 0 5px 10px rgba(0,0,0,.25),
+                 0 10px 10px rgba(0,0,0,.2),
+                 0 20px 20px rgba(0,0,0,.15);
+}
+.htag{
+    font-family: 'Baskerville';
+    font-weight: bold;
+
+}
+.card{
+    background-color: white;
+    padding: 0.7rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    border-radius: 19px;
+    justify-content: space-around;
+    
+
+}
+.shareCopy{
+    color: rgb(12, 65, 255) !important;
+    font-size: 1.8rem !important;
+}
+.alertBox{
+    position: absolute;
+    width: 10rem;
+    height: 2rem;
+}
+.insideCard{
+    display: flex;
+    gap: 2rem;
+    margin: 1rem 2rem;
+}
+.insideCard1{
+    display: flex;
+    gap: 2rem;
+}
+.modal-90w{
+    min-width: 80% ;
+}
+
+.custom-modal-style {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    }
+
+.modal-header{
+    background-color: rgba(134, 249, 176, 0.548);
+}
+
+.modalBody{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+.modalBody1{
+    position: relative;
+}
+.modalHeader{
+    text-align: center;
+    padding: 2px;
+    width: 12rem;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    position: absolute !important;
+    top: -1.9rem;
+    left: 1rem;
+    background-color: white;
+    z-index: 1;
+}
