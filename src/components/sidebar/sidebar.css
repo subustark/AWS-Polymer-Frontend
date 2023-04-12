@@ -1,52 +1,71 @@
-.sidebarContainer{
-    display: flex;
-    position: sticky !important;
-    top: 4rem !important;
-    align-self: flex-start ; 
-    z-index: 1 !important;
+.sidebarContainer {
+  display: flex;
+  position: sticky !important;
+  top: 4rem !important;
+  align-self: flex-start;
+  z-index: 1 !important;
 }
-.sideFixed{
-    width: 3.25rem;
-    background-color: rgb(85, 85, 112) ;
-    color: rgb(73, 72, 72) ;
-    /* height: 100vh; */
-    animation: changeColor 5s infinite linear;  
+.sideFixed {
+  width: 3.25rem;
+  background-color: red;
+  color: rgb(73, 72, 72);
+  /* height: 100vh; */
+  animation: changeColor 5s infinite linear;
 }
-@keyframes changeColor{
-    0%   {background-color: rgb(143, 199, 218);}
-    50%  {background-color: rgb(3, 154, 241);}
-    100% {background-color: rgb(143, 199, 218);}
+@keyframes changeColor {
+  0% {
+    background-color: rgb(143, 199, 218);
+  }
+  50% {
+    background-color: rgb(3, 154, 241);
+  }
+  100% {
+    background-color: rgb(143, 199, 218);
+  }
 }
-.tag{
-    position: relative;
-    top: -10px;
-    font-size: 0.85rem;
+.tag {
+  position: relative;
+  top: -10px;
+  font-size: 0.85rem;
 }
-.sideScroll{
-    width: 15rem;
-    height: 91vh;
-    border-right: 1px solid rgb(216, 216, 216);
-    padding: 0.8rem;
+.sideScroll {
+  width: 15rem;
+  height: 91vh;
+  border-right: 1px solid rgb(216, 216, 216);
+  padding: 0.8rem;
 }
-.scrollHeader{
-    font-weight: bold;
-    font-size: 0.8rem;
-    color: rgb(0, 0, 0);
+.scrollHeader {
+  font-weight: bold;
+  font-size: 0.8rem;
+  color: rgb(0, 0, 0);
 }
-.list{
-    padding: 0.3rem;
-    background-image: linear-gradient(to right, #fbabab, #fdb7b7, #fec3c3, #ffcfcf, #ffdbdb, #ffe2e5, #fee9ed, #fef0f4, #fdf4f9, #fcf8fc, #fdfcfe, #ffffff);
-    border:1px solid rgb(86, 87, 94);
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 0.8rem;
-    margin-left:10px;
-    gap:0.3rem
+.list {
+  padding: 0.3rem;
+  background-image: linear-gradient(
+    to right,
+    #fbabab,
+    #fdb7b7,
+    #fec3c3,
+    #ffcfcf,
+    #ffdbdb,
+    #ffe2e5,
+    #fee9ed,
+    #fef0f4,
+    #fdf4f9,
+    #fcf8fc,
+    #fdfcfe,
+    #ffffff
+  );
+  border: 1px solid rgb(86, 87, 94);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  margin-left: 10px;
+  gap: 0.3rem;
 }
-.listName{
-   
-    margin-left: 2rem;
-    width: 7rem;
+.listName {
+  margin-left: 2rem;
+  width: 7rem;
 }
 /* .listNumber{
     padding: 2.5px;
@@ -55,30 +74,28 @@
     margin-left: 40px;
     margin-right: 10px;
 } */
-.listNameActive{
-    width: 0.5rem;
-    background-color: rgb(253, 39, 39);
+.listNameActive {
+  width: 0.5rem;
+  background-color: rgb(253, 39, 39);
 }
-.listNumberActive{
-    background-color: rgb(243, 32, 32);
+.listNumberActive {
+  background-color: rgb(243, 32, 32);
 }
-.scrollList{
-    position: relative;
-    
+.scrollList {
+  position: relative;
 }
-.scrollListTags
-{
-    position: absolute;
-    background-color: red;
-    width: 5rem;
-    height: 5rem;
-    top:0rem;
-    left: 13rem;
+.scrollListTags {
+  position: absolute;
+  background-color: red;
+  width: 5rem;
+  height: 5rem;
+  top: 0rem;
+  left: 13rem;
 }
-#datetime{
-    font-family: monospace;
-    font-weight: bold;
-    text-shadow: #FC0 1px 0 10px;
-    margin-top: 10px;
-    margin-left: 20px;
+#datetime {
+  font-family: monospace;
+  font-weight: bold;
+  text-shadow: #fc0 1px 0 10px;
+  margin-top: 10px;
+  margin-left: 20px;
 }
