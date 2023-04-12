@@ -41,20 +41,11 @@
 }
 .list {
   padding: 0.3rem;
-  background-image: linear-gradient(
-    to right,
-    #fbabab,
-    #fdb7b7,
-    #fec3c3,
-    #ffcfcf,
-    #ffdbdb,
-    #ffe2e5,
-    #fee9ed,
-    #fef0f4,
-    #fdf4f9,
-    #fcf8fc,
-    #fdfcfe,
-    #ffffff
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(74, 100, 79, 1) 66%
   );
   border: 1px solid rgb(86, 87, 94);
   border-radius: 5px;
